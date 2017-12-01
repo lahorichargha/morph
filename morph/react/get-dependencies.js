@@ -43,6 +43,7 @@ export default ({ isReactNative, uses }, getImport) => {
     } else if (/^[A-Z]/.test(d) || /\.data$/.test(d)) {
       dependencies.push(getImport(d))
     } else if (d === 'glam') {
+      // TODO replace for emotion
       dependencies.push(`import css from 'glam'`)
     }
   })
