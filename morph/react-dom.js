@@ -11,7 +11,6 @@ import getValueForProperty from './react-dom/get-value-for-property.js'
 import isValidPropertyForBlock from './react-dom/is-valid-property-for-block.js'
 import makeVisitors from './react/make-visitors.js'
 import maybeUsesRouter from './react-dom/maybe-uses-router.js'
-import maybeUsesStyleSheet from './react-dom/maybe-uses-style-sheet.js'
 import morph from './morph.js'
 import morphTests, { EMPTY_TEST } from './tests.js'
 import restrictedNames from './react-dom/restricted-names.js'
@@ -39,9 +38,7 @@ export default ({
   if (name !== finalName) {
     console.warn(
       `// "${name}" is a Views reserved name.
-      We've renamed it to "${
-        finalName
-      }", so your view should work but this isn't ideal.
+      We've renamed it to "${finalName}", so your view should work but this isn't ideal.
       To fix this, change its file name to something else.`
     )
   }
@@ -81,9 +78,7 @@ export default ({
 
   if (name !== finalName) {
     console.warn(
-      `// ${
-        name
-      } is a Views reserved name. To fix this, change its file name to something else.`
+      `// ${name} is a Views reserved name. To fix this, change its file name to something else.`
     )
   }
 
@@ -134,7 +129,6 @@ export default ({
 
   morph(view, state, visitors)
 
-  maybeUsesStyleSheet(state)
   maybeUsesRouter(state)
 
   const finalGetImport = name => imports[name] || getImport(name)
