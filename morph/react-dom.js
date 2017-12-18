@@ -59,7 +59,6 @@ export default ({
     uses: [],
     styles: {},
     stylesDynamic: [],
-    stylesDynamicNames: [],
     testIds: {},
     tests: morphTests({ view: tests, file }),
     use(block) {
