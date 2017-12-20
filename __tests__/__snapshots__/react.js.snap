@@ -6,7 +6,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -17,7 +17,7 @@ const Action = props => {
       data-test-id={props['data-test-id'] || 'Vertical'}
       onClick={props.clickMe}
       disabled={props.isDisabled}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       <span data-test-id=\\"Action.Text\\">click me</span>
       {props.children}
@@ -49,7 +49,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -60,7 +60,7 @@ const Action = props => {
       data-test-id={props['data-test-id'] || 'Vertical'}
       onClick={props.clickMe}
       disabled={props.isDisabled}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       <span data-test-id=\\"Action.Text\\">click me</span>
       {props.children}
@@ -92,7 +92,7 @@ Object {
 import React from 'react';
 import styled, { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -105,7 +105,7 @@ const AnimatedButton = props => {
     <Vertical
       data-test-id={props['data-test-id'] || 'Vertical'}
       onClick={props.onClick}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       <span data-test-id=\\"AnimatedButton.Text\\">hey</span>
       {props.children}
@@ -136,7 +136,7 @@ Object {
 import React from 'react';
 import styled, { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -149,7 +149,7 @@ const AnimatedButton = props => {
     <Vertical
       data-test-id={props['data-test-id'] || 'Vertical'}
       onClick={props.onClick}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       <span data-test-id=\\"AnimatedButton.Text\\">hey</span>
       {props.children}
@@ -180,11 +180,11 @@ Object {
 import React from 'react';
 import styled, { css } from 'react-emotion';
 const styles = {
-  h1omhxf4: css\`
+  h1fqs4qx: css\`
     flex-direction: column;
     background-image: url('https://viewsdx.com/image.jpg');
   \`,
-  h1peh4ml: css\`
+  h1qzeuoz: css\`
     flex-direction: row;
     background-size: contain;
   \`,
@@ -197,11 +197,11 @@ const BackgroundImage = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'Vertical'}
-      className={styles.h1omhxf4}
+      className={styles.h1fqs4qx}
     >
       <Horizontal
         data-test-id=\\"BackgroundImage.Horizontal\\"
-        className={styles.h1peh4ml}
+        className={styles.h1qzeuoz}
       />
       {props.children}
     </div>
@@ -230,11 +230,11 @@ Object {
 import React from 'react';
 import styled, { css } from 'react-emotion';
 const styles = {
-  h1omhxf4: css\`
+  h1fqs4qx: css\`
     flex-direction: column;
     background-image: url('https://viewsdx.com/image.jpg');
   \`,
-  h1peh4ml: css\`
+  h1qzeuoz: css\`
     flex-direction: row;
     background-size: contain;
   \`,
@@ -247,11 +247,11 @@ const BackgroundImage = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'Vertical'}
-      className={styles.h1omhxf4}
+      className={styles.h1fqs4qx}
     >
       <Horizontal
         data-test-id=\\"BackgroundImage.Horizontal\\"
-        className={styles.h1peh4ml}
+        className={styles.h1qzeuoz}
       />
       {props.children}
     </div>
@@ -280,10 +280,10 @@ Object {
 import React from 'react';
 import styled, { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
-  h18mfro8: css\`
+  hvytwz3: css\`
     flex-direction: column;
     box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.1);
   \`,
@@ -299,13 +299,10 @@ const BoxShadow = props => {
   return (
     <Vertical
       data-test-id={props['data-test-id'] || 'Vertical'}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
-      <Vertical1
-        data-test-id=\\"BoxShadow.Vertical:1\\"
-        className={styles.h18or678}
-      >
-        <div data-test-id=\\"BoxShadow.Vertical:2\\" className={styles.h18mfro8} />
+      <Vertical1 data-test-id=\\"BoxShadow.Vertical:1\\" className={styles.ho4tnl3}>
+        <div data-test-id=\\"BoxShadow.Vertical:2\\" className={styles.hvytwz3} />
       </Vertical1>
       {props.children}
     </Vertical>
@@ -334,10 +331,10 @@ Object {
 import React from 'react';
 import styled, { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
-  h18mfro8: css\`
+  hvytwz3: css\`
     flex-direction: column;
     box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.1);
   \`,
@@ -353,13 +350,10 @@ const BoxShadow = props => {
   return (
     <Vertical
       data-test-id={props['data-test-id'] || 'Vertical'}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
-      <Vertical1
-        data-test-id=\\"BoxShadow.Vertical:1\\"
-        className={styles.h18or678}
-      >
-        <div data-test-id=\\"BoxShadow.Vertical:2\\" className={styles.h18mfro8} />
+      <Vertical1 data-test-id=\\"BoxShadow.Vertical:1\\" className={styles.ho4tnl3}>
+        <div data-test-id=\\"BoxShadow.Vertical:2\\" className={styles.hvytwz3} />
       </Vertical1>
       {props.children}
     </Vertical>
@@ -388,7 +382,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  hjpd2p3: css\`
+  hsjxc34: css\`
     flex-direction: column;
     background-color: blue;
   \`,
@@ -398,7 +392,7 @@ const ClassName = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'Vertical'}
-      className={\`hey \${styles.hjpd2p3}\`}
+      className={\`hey \${styles.hsjxc34}\`}
     >
       {props.children}
     </div>
@@ -425,7 +419,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  hjpd2p3: css\`
+  hsjxc34: css\`
     flex-direction: column;
     background-color: blue;
   \`,
@@ -435,7 +429,7 @@ const ClassName = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'Vertical'}
-      className={\`hey \${styles.hjpd2p3}\`}
+      className={\`hey \${styles.hsjxc34}\`}
     >
       {props.children}
     </div>
@@ -462,7 +456,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -472,7 +466,7 @@ const Code = props => {
     <div
       data-test-id={props['data-test-id'] || 'Vertical'}
       ref={$e => (this.$e = $e)}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       <span data-test-id=\\"Code.Text\\">{props.text}</span>
       {props.children}
@@ -502,7 +496,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -512,7 +506,7 @@ const Code = props => {
     <div
       data-test-id={props['data-test-id'] || 'Vertical'}
       ref={$e => (this.$e = $e)}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       <span data-test-id=\\"Code.Text\\">{props.text}</span>
       {props.children}
@@ -542,7 +536,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -560,7 +554,7 @@ class Form extends React.Component {
       <form
         data-test-id={props['data-test-id'] || 'Form'}
         onSubmit={() => props.onSubmit(state)}
-        className={styles.h18or678}
+        className={styles.ho4tnl3}
       >
         <input
           type=\\"text\\"
@@ -591,7 +585,7 @@ class Form extends React.Component {
         <button
           data-test-id=\\"Form.Button\\"
           onClick={() => props.onSubmit(state)}
-          className={styles.h18or678}
+          className={styles.ho4tnl3}
         >
           <span data-test-id=\\"Form.Text\\">Send!</span>
         </button>
@@ -623,7 +617,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -641,7 +635,7 @@ class Form extends React.Component {
       <form
         data-test-id={props['data-test-id'] || 'Form'}
         onSubmit={() => props.onSubmit(state)}
-        className={styles.h18or678}
+        className={styles.ho4tnl3}
       >
         <input
           type=\\"text\\"
@@ -677,7 +671,7 @@ class Form extends React.Component {
         <button
           data-test-id=\\"Form.Button\\"
           onClick={() => props.onSubmit(state)}
-          className={styles.h18or678}
+          className={styles.ho4tnl3}
         >
           <span data-test-id=\\"Form.Text\\">Send!</span>
         </button>
@@ -709,7 +703,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -721,7 +715,7 @@ const GoTo = props => {
       rel=\\"noopener noreferrer\\"
       target=\\"_blank\\"
       data-test-id={props['data-test-id'] || 'Vertical'}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       <span data-test-id=\\"GoTo.Text\\">Go to ViewsDX website!</span>
       {props.children}
@@ -749,7 +743,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -761,7 +755,7 @@ const GoTo = props => {
       rel=\\"noopener noreferrer\\"
       target=\\"_blank\\"
       data-test-id={props['data-test-id'] || 'Vertical'}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       <span data-test-id=\\"GoTo.Text\\">Go to ViewsDX website!</span>
       {props.children}
@@ -789,11 +783,14 @@ Object {
 import React from 'react';
 import styled, { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
-  h1qbyotb: css\`
+  h1uuiss4: css\`
     color: white;
+    &:hover {
+      color: black;
+    }
   \`,
 };
 const Button = styled('button')\`
@@ -803,21 +800,15 @@ const Button = styled('button')\`
     background-color: \${props => props.backgroundColorHover};
   }
 \`;
-const Text = styled('span')\`
-  \${Button}:hover &,
-  \${Button}.hover & {
-    color: \${props => 'black'};
-  }
-\`;
 
 const Hover = props => {
   return (
     <Button
       data-test-id={props['data-test-id'] || 'Button'}
       onClick={props.onClick}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
-      <Text data-test-id=\\"Hover.Text\\" className={styles.h1qbyotb}>
+      <Text data-test-id=\\"Hover.Text\\" className={styles.h1uuiss4}>
         Hey!
       </Text>
       {props.children}
@@ -849,10 +840,10 @@ Object {
 import React from 'react';
 import styled, { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
-  h1mgvy2v: css\`
+  h1uuiss4: css\`
     color: white;
     &:hover,
     &.hover {
@@ -873,9 +864,9 @@ const Hover = props => {
     <Button
       data-test-id={props['data-test-id'] || 'Button'}
       onClick={props.onClick}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
-      <Text data-test-id=\\"Hover.Text\\" className={styles.h1mgvy2v}>
+      <Text data-test-id=\\"Hover.Text\\" className={styles.h1uuiss4}>
         Hey!
       </Text>
       {props.children}
@@ -905,25 +896,22 @@ exports[`react-dom parses react-dom HoverProxy 1`] = `
 Object {
   "code": "/* eslint-disable jsx-a11y/accessible-emoji, no-unused-vars */
 import React from 'react';
-import styled, { css } from 'react-emotion';
+import { css } from 'react-emotion';
 const styles = {
-  h1mc7g7i: css\`
+  hhxd3nw: css\`
     flex-direction: column;
     background-color: black;
     &:hover {
       background-color: white;
     }
   \`,
-  h1qbyotb: css\`
+  h1uuiss4: css\`
     color: white;
+    &:hover {
+      color: black;
+    }
   \`,
 };
-const Text = styled('span')\`
-  \${Button}:hover &,
-  \${Button}.hover & {
-    color: \${props => 'black'};
-  }
-\`;
 
 const HoverProxy = props => {
   const childrenArray = React.Children.toArray(props.children);
@@ -931,7 +919,7 @@ const HoverProxy = props => {
     <button
       data-test-id={props['data-test-id'] || 'Button'}
       onClick={props.onClick}
-      className={styles.h1mc7g7i}
+      className={styles.hhxd3nw}
     >
       {props.childrenProxyMap &&
       childrenArray[props.childrenProxyMap['props.icon']]
@@ -940,7 +928,7 @@ const HoverProxy = props => {
             { fill: 'white', fillHover: 'black' }
           )
         : null}
-      <Text data-test-id=\\"HoverProxy.Text\\" className={styles.h1qbyotb}>
+      <Text data-test-id=\\"HoverProxy.Text\\" className={styles.h1uuiss4}>
         Hey!
       </Text>
     </button>
@@ -970,7 +958,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h1mc7g7i: css\`
+  hhxd3nw: css\`
     flex-direction: column;
     background-color: black;
     &:hover,
@@ -978,7 +966,7 @@ const styles = {
       background-color: white;
     }
   \`,
-  h1mgvy2v: css\`
+  h1uuiss4: css\`
     color: white;
     &:hover,
     &.hover {
@@ -993,7 +981,7 @@ const HoverProxy = props => {
     <button
       data-test-id={props['data-test-id'] || 'Button'}
       onClick={props.onClick}
-      className={styles.h1mc7g7i}
+      className={styles.hhxd3nw}
     >
       {props.childrenProxyMap &&
       childrenArray[props.childrenProxyMap['props.icon']]
@@ -1002,7 +990,7 @@ const HoverProxy = props => {
             { fill: 'white', fillHover: 'black' }
           )
         : null}
-      <Text data-test-id=\\"HoverProxy.Text\\" className={styles.h1mgvy2v}>
+      <Text data-test-id=\\"HoverProxy.Text\\" className={styles.h1uuiss4}>
         Hey!
       </Text>
     </button>
@@ -1078,7 +1066,7 @@ Object {
 import React from 'react';
 import styled, { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -1090,7 +1078,7 @@ const ListOfButtons = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'List'}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       {Array.isArray(props.list) &&
         props.list.map((item, index) => (
@@ -1098,7 +1086,7 @@ const ListOfButtons = props => {
             data-test-id=\\"ListOfButtons.Vertical\\"
             onClick={props.onClick}
             key={index}
-            className={styles.h18or678}
+            className={styles.ho4tnl3}
           >
             <Text data-test-id=\\"ListOfButtons.Text\\">{index}</Text>
           </button>
@@ -1136,11 +1124,11 @@ Object {
 import React from 'react';
 import styled, { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
-const span = styled('undefined')\`
+const Text = styled('span')\`
   color: \${props => item.color};
 \`;
 
@@ -1148,7 +1136,7 @@ const ListOfButtons = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'List'}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       {Array.isArray(props.list) &&
         props.list.map((item, index) => (
@@ -1156,9 +1144,9 @@ const ListOfButtons = props => {
             data-test-id=\\"ListOfButtons.Vertical\\"
             onClick={props.onClick}
             key={index}
-            className={styles.h18or678}
+            className={styles.ho4tnl3}
           >
-            <span data-test-id=\\"ListOfButtons.Text\\">{index}</span>
+            <Text data-test-id=\\"ListOfButtons.Text\\">{index}</Text>
           </button>
         ))}
       {props.children}
@@ -1194,7 +1182,7 @@ Object {
 import React from 'react';
 import styled, { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -1206,7 +1194,7 @@ const ListOfSomething = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'List'}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       {Array.isArray(props.list) &&
         props.list.map((item, index) => (
@@ -1250,11 +1238,11 @@ Object {
 import React from 'react';
 import styled, { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
-const span = styled('undefined')\`
+const Text = styled('span')\`
   color: \${props => item.color};
 \`;
 
@@ -1262,17 +1250,17 @@ const ListOfSomething = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'List'}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       {Array.isArray(props.list) &&
         props.list.map((item, index) => (
-          <span
+          <Text
             data-test-id=\\"ListOfSomething.Text\\"
             dataIndex={index}
             key={index}
           >
             {index}
-          </span>
+          </Text>
         ))}
       {props.children}
     </div>
@@ -1306,7 +1294,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -1315,7 +1303,7 @@ const ListWithKey = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'List'}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       {Array.isArray(props.list) &&
         props.list.map((item, index) => (
@@ -1350,7 +1338,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -1359,7 +1347,7 @@ const ListWithKey = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'List'}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       {Array.isArray(props.list) &&
         props.list.map((item, index) => (
@@ -1444,7 +1432,7 @@ import { Route } from 'react-router-dom';
 import Topic from './Topic.view.js';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -1453,13 +1441,13 @@ const NestedRoutes = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'Topics'}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       <span data-test-id=\\"NestedRoutes.Text\\">topics</span>
       <Link
         to={\`\${props.match.url === '/' ? '' : props.match.url}/rendering\`}
         data-test-id=\\"NestedRoutes.Link\\"
-        className={styles.h18or678}
+        className={styles.ho4tnl3}
       >
         <span data-test-id=\\"NestedRoutes.Text:1\\">Rendering with React</span>
       </Link>
@@ -1493,10 +1481,12 @@ Object {
   "code": "/* eslint-disable jsx-a11y/accessible-emoji, no-unused-vars */
 import React from 'react';
 import { withRouter } from 'react-router';
+import { Link } from 'react-router-dom';
 import { Route } from 'react-router-dom';
+import Topic from './Topic.view.js';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -1505,13 +1495,13 @@ const NestedRoutes = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'Topics'}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       <span data-test-id=\\"NestedRoutes.Text\\">topics</span>
       <Link
         to={\`\${props.match.url === '/' ? '' : props.match.url}/rendering\`}
         data-test-id=\\"NestedRoutes.Link\\"
-        className={styles.h18or678}
+        className={styles.ho4tnl3}
       >
         <span data-test-id=\\"NestedRoutes.Text:1\\">Rendering with React</span>
       </Link>
@@ -1546,10 +1536,10 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
-  h12h5uqm: css\`
+  h1d06m5g: css\`
     @media print {
       display: none;
     }
@@ -1560,9 +1550,9 @@ const Print = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'Vertical'}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
-      <span data-test-id=\\"Print.Text\\" className={styles.h12h5uqm}>
+      <span data-test-id=\\"Print.Text\\" className={styles.h1d06m5g}>
         not in print
       </span>
       <span data-test-id=\\"Print.Text:1\\">hey</span>
@@ -1591,10 +1581,10 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
-  h12h5uqm: css\`
+  h1d06m5g: css\`
     @media print, &.media-print {
       display: none;
     }
@@ -1605,9 +1595,9 @@ const Print = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'Vertical'}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
-      <span data-test-id=\\"Print.Text\\" className={styles.h12h5uqm}>
+      <span data-test-id=\\"Print.Text\\" className={styles.h1d06m5g}>
         not in print
       </span>
       <span data-test-id=\\"Print.Text:1\\">hey</span>
@@ -1636,10 +1626,10 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
-  hnpb55i: css\`
+  h1qq1i2q: css\`
     flex-direction: row;
   \`,
 };
@@ -1649,9 +1639,9 @@ const ProxyTest = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'Vertical'}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
-      <div data-test-id=\\"ProxyTest.Horizontal\\" className={styles.hnpb55i}>
+      <div data-test-id=\\"ProxyTest.Horizontal\\" className={styles.h1qq1i2q}>
         {props.bla && childrenArray[props.childrenProxyMap['Something']]
           ? React.cloneElement(
               childrenArray[props.childrenProxyMap['Something']],
@@ -1687,10 +1677,10 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
-  hnpb55i: css\`
+  h1qq1i2q: css\`
     flex-direction: row;
   \`,
 };
@@ -1700,9 +1690,9 @@ const ProxyTest = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'Vertical'}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
-      <div data-test-id=\\"ProxyTest.Horizontal\\" className={styles.hnpb55i}>
+      <div data-test-id=\\"ProxyTest.Horizontal\\" className={styles.h1qq1i2q}>
         {props.bla && childrenArray[props.childrenProxyMap['Something']]
           ? React.cloneElement(
               childrenArray[props.childrenProxyMap['Something']],
@@ -1779,7 +1769,7 @@ Object {
 import React from 'react';
 import styled, { css } from 'react-emotion';
 
-const span = styled('undefined')\`
+const Text = styled('span')\`
   color: \${props =>
     props.somethingGreen
       ? 'rgb(0,255,0)'
@@ -1788,11 +1778,11 @@ const span = styled('undefined')\`
 
 const Scope = props => {
   return (
-    <span data-test-id={props['data-test-id'] || 'Text'}>
+    <Text data-test-id={props['data-test-id'] || 'Text'}>
       {props.somethingGreen
         ? '2 green'
         : props.whatMakesBlue ? props.blue : '1 red'}
-    </span>
+    </Text>
   );
 };
 
@@ -1854,6 +1844,7 @@ exports[`react-dom parses react-dom ScopeOnCustomView debug 1`] = `
 Object {
   "code": "/* eslint-disable jsx-a11y/accessible-emoji, no-unused-vars */
 import React from 'react';
+import Button from './Button.view.js';
 
 const ScopeOnCustomView = props => {
   return (
@@ -1891,7 +1882,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -1901,7 +1892,7 @@ const ScopePopup = props => {
     <div
       data-test-id={props['data-test-id'] || 'Popup'}
       animate=\\"pop\\"
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       <button
         data-test-id=\\"ScopePopup.Toggle\\"
@@ -1910,7 +1901,7 @@ const ScopePopup = props => {
             ? props.onClickGreen
             : props.whatMakesBlue ? props.onClickBlue : props.toggle
         }
-        className={styles.h18or678}
+        className={styles.ho4tnl3}
       >
         <span data-test-id=\\"ScopePopup.Text\\">toggle popup</span>
       </button>
@@ -1946,7 +1937,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -1956,7 +1947,7 @@ const ScopePopup = props => {
     <div
       data-test-id={props['data-test-id'] || 'Popup'}
       animate=\\"pop\\"
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       <button
         data-test-id=\\"ScopePopup.Toggle\\"
@@ -1965,7 +1956,7 @@ const ScopePopup = props => {
             ? props.onClickGreen
             : props.whatMakesBlue ? props.onClickBlue : props.toggle
         }
-        className={styles.h18or678}
+        className={styles.ho4tnl3}
       >
         <span data-test-id=\\"ScopePopup.Text\\">toggle popup</span>
       </button>
@@ -2001,7 +1992,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -2010,12 +2001,12 @@ const ScopePopup2 = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'Popup'}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       <button
         data-test-id=\\"ScopePopup2.Toggle\\"
         onClick={props.toggle}
-        className={styles.h18or678}
+        className={styles.ho4tnl3}
       >
         <span data-test-id=\\"ScopePopup2.Text\\">toggle popup</span>
       </button>
@@ -2048,7 +2039,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -2057,12 +2048,12 @@ const ScopePopup2 = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'Popup'}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       <button
         data-test-id=\\"ScopePopup2.Toggle\\"
         onClick={props.toggle}
-        className={styles.h18or678}
+        className={styles.ho4tnl3}
       >
         <span data-test-id=\\"ScopePopup2.Text\\">toggle popup</span>
       </button>
@@ -2096,7 +2087,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { css } from 'react-emotion';
 const styles = {
-  hnpb55i: css\`
+  h1qq1i2q: css\`
     flex-direction: row;
   \`,
 };
@@ -2106,7 +2097,7 @@ const Teleport = props => {
     <Link
       to=\\"..\\"
       data-test-id={props['data-test-id'] || 'Horizontal'}
-      className={styles.hnpb55i}
+      className={styles.h1qq1i2q}
     >
       <span data-test-id=\\"Teleport.Text\\">go back</span>
       {props.children}
@@ -2132,9 +2123,10 @@ exports[`react-dom parses react-dom Teleport debug 1`] = `
 Object {
   "code": "/* eslint-disable jsx-a11y/accessible-emoji, no-unused-vars */
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { css } from 'react-emotion';
 const styles = {
-  hnpb55i: css\`
+  h1qq1i2q: css\`
     flex-direction: row;
   \`,
 };
@@ -2144,7 +2136,7 @@ const Teleport = props => {
     <Link
       to=\\"..\\"
       data-test-id={props['data-test-id'] || 'Horizontal'}
-      className={styles.hnpb55i}
+      className={styles.h1qq1i2q}
     >
       <span data-test-id=\\"Teleport.Text\\">go back</span>
       {props.children}
@@ -2204,6 +2196,7 @@ exports[`react-dom parses react-dom Test debug 1`] = `
 Object {
   "code": "/* eslint-disable jsx-a11y/accessible-emoji, no-unused-vars */
 import React from 'react';
+import Custom from './Custom.view.js';
 
 const Test = props => {
   return (
@@ -2240,7 +2233,7 @@ import React from 'react';
 import External from './External.view.js';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -2249,7 +2242,7 @@ const TestIds = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'App'}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       <span data-test-id=\\"TestIds.Text\\">1</span>
       <span data-test-id=\\"TestIds.Text:1\\">2</span>
@@ -2278,9 +2271,10 @@ exports[`react-dom parses react-dom TestIds debug 1`] = `
 Object {
   "code": "/* eslint-disable jsx-a11y/accessible-emoji, no-unused-vars */
 import React from 'react';
+import External from './External.view.js';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -2289,7 +2283,7 @@ const TestIds = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'App'}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       <span data-test-id=\\"TestIds.Text\\">1</span>
       <span data-test-id=\\"TestIds.Text:1\\">2</span>
@@ -2320,7 +2314,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -2329,7 +2323,7 @@ const TextInterpolation = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'Vertical'}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       <span data-test-id=\\"TextInterpolation.Text\\">{\`\${props.name} test\`}</span>
       <span data-test-id=\\"TextInterpolation.Text:1\\">
@@ -2362,7 +2356,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -2371,7 +2365,7 @@ const TextInterpolation = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'Vertical'}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       <span data-test-id=\\"TextInterpolation.Text\\">{\`\${props.name} test\`}</span>
       <span data-test-id=\\"TextInterpolation.Text:1\\">
@@ -2450,7 +2444,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  hzek9vx: css\`
+  h1by7qdg: css\`
     border: 1px solid black;
     color: red;
     &:focus {
@@ -2480,7 +2474,7 @@ class UseCaptureEmail extends React.Component {
         autoFocus={true}
         defaultValue=\\"hey this is a default value\\"
         onSubmit={props.onSubmit}
-        className={styles.hzek9vx}
+        className={styles.h1by7qdg}
       />
     );
   }
@@ -2508,7 +2502,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  hzek9vx: css\`
+  h1by7qdg: css\`
     border: 1px solid black;
     color: red;
     &:focus,
@@ -2540,7 +2534,7 @@ class UseCaptureEmail extends React.Component {
         data-test-id={props['data-test-id'] || 'Email'}
         defaultValue=\\"hey this is a default value\\"
         onSubmit={props.onSubmit}
-        className={\`mousetrap \${styles.hzek9vx}\`}
+        className={\`mousetrap \${styles.h1by7qdg}\`}
       />
     );
   }
@@ -2972,7 +2966,8 @@ class UseCaptureTextArea extends React.Component {
     return (
       <textarea
         onChange={event =>
-          this.setState({ captureTextArea: event.target.value })}
+          this.setState({ captureTextArea: event.target.value })
+        }
         value={state.captureTextArea}
         data-test-id={props['data-test-id'] || 'CaptureTextArea'}
       />
@@ -3122,7 +3117,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h1d1hac2: css\`
+  hud64j7: css\`
     flex-direction: row;
     border: 1px solid red;
   \`,
@@ -3132,7 +3127,7 @@ const UseHorizontal = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'Horizontal'}
-      className={styles.h1d1hac2}
+      className={styles.hud64j7}
     >
       {props.children}
     </div>
@@ -3159,7 +3154,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h1d1hac2: css\`
+  hud64j7: css\`
     flex-direction: row;
     border: 1px solid red;
   \`,
@@ -3169,7 +3164,7 @@ const UseHorizontal = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'Horizontal'}
-      className={styles.h1d1hac2}
+      className={styles.hud64j7}
     >
       {props.children}
     </div>
@@ -3253,7 +3248,7 @@ import React from 'react';
 import Button from './Button.view.js';
 import { css } from 'react-emotion';
 const styles = {
-  hnpb55i: css\`
+  h1qq1i2q: css\`
     flex-direction: row;
   \`,
 };
@@ -3262,7 +3257,7 @@ const UseOfProxy = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'App'}
-      className={styles.hnpb55i}
+      className={styles.h1qq1i2q}
     >
       <Button
         data-test-id=\\"UseOfProxy.Button\\"
@@ -3293,9 +3288,10 @@ exports[`react-dom parses react-dom UseOfProxy debug 1`] = `
 Object {
   "code": "/* eslint-disable jsx-a11y/accessible-emoji, no-unused-vars */
 import React from 'react';
+import Button from './Button.view.js';
 import { css } from 'react-emotion';
 const styles = {
-  hnpb55i: css\`
+  h1qq1i2q: css\`
     flex-direction: row;
   \`,
 };
@@ -3304,7 +3300,7 @@ const UseOfProxy = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'App'}
-      className={styles.hnpb55i}
+      className={styles.h1qq1i2q}
     >
       <Button
         data-test-id=\\"UseOfProxy.Button\\"
@@ -3337,7 +3333,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  hnpb55i: css\`
+  h1qq1i2q: css\`
     flex-direction: row;
   \`,
 };
@@ -3347,7 +3343,7 @@ const UseProxy = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'Button'}
-      className={styles.hnpb55i}
+      className={styles.h1qq1i2q}
     >
       {props.childrenProxyMap &&
       childrenArray[props.childrenProxyMap['props.icon']]
@@ -3384,7 +3380,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  hnpb55i: css\`
+  h1qq1i2q: css\`
     flex-direction: row;
   \`,
 };
@@ -3394,7 +3390,7 @@ const UseProxy = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'Button'}
-      className={styles.hnpb55i}
+      className={styles.h1qq1i2q}
     >
       {props.childrenProxyMap &&
       childrenArray[props.childrenProxyMap['props.icon']]
@@ -3436,7 +3432,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Topics from './Topics.view.js';
 import { css } from 'react-emotion';
 const styles = {
-  hnpb55i: css\`
+  h1qq1i2q: css\`
     flex-direction: row;
   \`,
 };
@@ -3446,7 +3442,76 @@ const UseRouter = props => {
     <Router>
       <div
         data-test-id={props['data-test-id'] || 'Horizontal'}
-        className={styles.hnpb55i}
+        className={styles.h1qq1i2q}
+      >
+        <Route
+          path=\\"/\\"
+          exact
+          render={routeProps => (
+            <Home
+              data-test-id=\\"UseRouter.Home\\"
+              height={props.height}
+              width={360}
+              {...routeProps}
+            />
+          )}
+        />
+        <Route
+          path=\\"/about\\"
+          render={routeProps => (
+            <About data-test-id=\\"UseRouter.About\\" {...routeProps} />
+          )}
+        />
+        <Route
+          path=\\"/topics\\"
+          render={routeProps => (
+            <Topics data-test-id=\\"UseRouter.Topics\\" {...routeProps} />
+          )}
+        />
+        {props.children}
+      </div>
+    </Router>
+  );
+};
+
+export default UseRouter;
+",
+  "fonts": Object {},
+  "props": Object {
+    "height": "number",
+  },
+  "tests": Array [
+    Object {
+      "data": Object {},
+      "name": "Main",
+    },
+  ],
+  "todos": Array [],
+}
+`;
+
+exports[`react-dom parses react-dom UseRouter debug 1`] = `
+Object {
+  "code": "/* eslint-disable jsx-a11y/accessible-emoji, no-unused-vars */
+import React from 'react';
+import About from './About.view.js';
+import Home from './Home.view.js';
+import { Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Topics from './Topics.view.js';
+import { css } from 'react-emotion';
+const styles = {
+  h1qq1i2q: css\`
+    flex-direction: row;
+  \`,
+};
+
+const UseRouter = props => {
+  return (
+    <Router>
+      <div
+        data-test-id={props['data-test-id'] || 'Horizontal'}
+        className={styles.h1qq1i2q}
       >
         <Route
           path=\\"/\\"
@@ -3528,13 +3593,47 @@ export default UseSvg;
 }
 `;
 
+exports[`react-dom parses react-dom UseSvg debug 1`] = `
+Object {
+  "code": "/* eslint-disable jsx-a11y/accessible-emoji, no-unused-vars */
+import React from 'react';
+
+const UseSvg = props => {
+  return (
+    <svg data-test-id={props['data-test-id'] || 'Svg'} viewBox=\\"0 0 20 20\\">
+      <path data-test-id=\\"UseSvg.SvgPath\\" d=\\"0 20\\" />
+      <circle data-test-id=\\"UseSvg.SvgCircle\\" cx={10} cy={5} r={5} />
+      <g data-test-id=\\"UseSvg.SvgGroup\\">
+        <path data-test-id=\\"UseSvg.SvgPath:1\\" d={1} />
+        <path data-test-id=\\"UseSvg.SvgPath:2\\" d={2} />
+      </g>
+      <text data-test-id=\\"UseSvg.SvgText\\" text=\\"hey\\" />
+      {props.children}
+    </svg>
+  );
+};
+
+export default UseSvg;
+",
+  "fonts": Object {},
+  "props": Object {},
+  "tests": Array [
+    Object {
+      "data": Object {},
+      "name": "Main",
+    },
+  ],
+  "todos": Array [],
+}
+`;
+
 exports[`react-dom parses react-dom UseText 1`] = `
 Object {
   "code": "/* eslint-disable jsx-a11y/accessible-emoji, no-unused-vars */
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h84riit: css\`
+  hjam8jb: css\`
     color: blue;
     font-family: Montserrat, sans-serif;
     font-size: 16px;
@@ -3547,7 +3646,51 @@ const UseText = props => {
   return (
     <span
       data-test-id={props['data-test-id'] || 'Text'}
-      className={styles.h84riit}
+      className={styles.hjam8jb}
+    >
+      Hi, I'm some text
+    </span>
+  );
+};
+
+export default UseText;
+",
+  "fonts": Object {
+    "Montserrat": Array [
+      "300",
+    ],
+  },
+  "props": Object {},
+  "tests": Array [
+    Object {
+      "data": Object {},
+      "name": "Main",
+    },
+  ],
+  "todos": Array [],
+}
+`;
+
+exports[`react-dom parses react-dom UseText debug 1`] = `
+Object {
+  "code": "/* eslint-disable jsx-a11y/accessible-emoji, no-unused-vars */
+import React from 'react';
+import { css } from 'react-emotion';
+const styles = {
+  hjam8jb: css\`
+    color: blue;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;
+  \`,
+};
+
+const UseText = props => {
+  return (
+    <span
+      data-test-id={props['data-test-id'] || 'Text'}
+      className={styles.hjam8jb}
     >
       Hi, I'm some text
     </span>
@@ -3578,7 +3721,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h1k352l5: css\`
+  h241iip: css\`
     flex-direction: column;
     background-color: red;
   \`,
@@ -3588,7 +3731,7 @@ const UseVertical = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'Vertical'}
-      className={styles.h1k352l5}
+      className={styles.h241iip}
     >
       {props.children}
     </div>
@@ -3615,7 +3758,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h1k352l5: css\`
+  h241iip: css\`
     flex-direction: column;
     background-color: red;
   \`,
@@ -3625,7 +3768,7 @@ const UseVertical = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'Vertical'}
-      className={styles.h1k352l5}
+      className={styles.h241iip}
     >
       {props.children}
     </div>
@@ -3652,7 +3795,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  hnpb55i: css\`
+  h1qq1i2q: css\`
     flex-direction: row;
   \`,
 };
@@ -3661,7 +3804,7 @@ const When = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'App'}
-      className={styles.hnpb55i}
+      className={styles.h1qq1i2q}
     >
       {props.showMe ? (
         <span data-test-id=\\"When.Text\\">I may be hidden</span>
@@ -3693,7 +3836,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  hnpb55i: css\`
+  h1qq1i2q: css\`
     flex-direction: row;
   \`,
 };
@@ -3702,7 +3845,7 @@ const When = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'App'}
-      className={styles.hnpb55i}
+      className={styles.h1qq1i2q}
     >
       {props.showMe ? (
         <span data-test-id=\\"When.Text\\">I may be hidden</span>
@@ -3734,10 +3877,10 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  hnpb55i: css\`
+  h1qq1i2q: css\`
     flex-direction: row;
   \`,
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -3746,10 +3889,10 @@ const WhenList = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'App'}
-      className={styles.hnpb55i}
+      className={styles.h1qq1i2q}
     >
       {props.showMe ? (
-        <div data-test-id=\\"WhenList.List\\" className={styles.h18or678}>
+        <div data-test-id=\\"WhenList.List\\" className={styles.ho4tnl3}>
           {Array.isArray(props.list) &&
             props.list.map((item, index) => (
               <span data-test-id=\\"WhenList.Text\\" key={index}>
@@ -3791,10 +3934,10 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  hnpb55i: css\`
+  h1qq1i2q: css\`
     flex-direction: row;
   \`,
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -3803,10 +3946,10 @@ const WhenList = props => {
   return (
     <div
       data-test-id={props['data-test-id'] || 'App'}
-      className={styles.hnpb55i}
+      className={styles.h1qq1i2q}
     >
       {props.showMe ? (
-        <div data-test-id=\\"WhenList.List\\" className={styles.h18or678}>
+        <div data-test-id=\\"WhenList.List\\" className={styles.ho4tnl3}>
           {Array.isArray(props.list) &&
             props.list.map((item, index) => (
               <span data-test-id=\\"WhenList.Text\\" key={index}>
@@ -3902,7 +4045,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -3912,7 +4055,7 @@ const WithTest = props => {
     <button
       data-test-id={props['data-test-id'] || 'Vertical'}
       onClick={props.change}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       <span data-test-id=\\"WithTest.Text\\">{props.text}</span>
       {props.children}
@@ -3953,7 +4096,7 @@ Object {
 import React from 'react';
 import { css } from 'react-emotion';
 const styles = {
-  h18or678: css\`
+  ho4tnl3: css\`
     flex-direction: column;
   \`,
 };
@@ -3963,7 +4106,7 @@ const WithTest = props => {
     <button
       data-test-id={props['data-test-id'] || 'Vertical'}
       onClick={props.change}
-      className={styles.h18or678}
+      className={styles.ho4tnl3}
     >
       <span data-test-id=\\"WithTest.Text\\">{props.text}</span>
       {props.children}
