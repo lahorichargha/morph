@@ -13,7 +13,7 @@ const NATIVE = [
   'View',
 ]
 
-export default ({ isReactNative, uses }, getImport) => {
+export default ({ cssDynamic, cssStatic, isReactNative, uses }, getImport) => {
   const usesNative = []
   const usesSvg = []
 
@@ -44,6 +44,14 @@ export default ({ isReactNative, uses }, getImport) => {
       dependencies.push(getImport(d))
     }
   })
+
+  if (cssDynamic && cssStatic) {
+    dependencies.push('import styled, { css } from "react-emotion"')
+  } else if (cssStatic) {
+    dependencies.push('import { css } from "react-emotion"')
+  } else if (cssDynamic) {
+    dependencies.push('import styled from "react-emotion"')
+  }
 
   if (usesSvg.length > 0) {
     const svg = usesSvg.filter(m => m !== 'Svg').join(', ')
