@@ -800,6 +800,13 @@ const Button = styled('button')\`
     background-color: \${props => props.backgroundColorHover};
   }
 \`;
+const Text = styled('span')\`
+  font-size: \${props => props.fontSize};
+  \${Button}:hover &,
+  \${Button}.hover & {
+    font-size: \${props => props.fontSizeHover};
+  }
+\`;
 
 const Hover = props => {
   return (
@@ -822,6 +829,8 @@ export default Hover;
   "props": Object {
     "backgroundColor": "string",
     "backgroundColorHover": "string",
+    "fontSize": "number",
+    "fontSizeHover": "number",
     "onClick": "function",
   },
   "tests": Array [
@@ -858,6 +867,13 @@ const Button = styled('button')\`
     background-color: \${props => props.backgroundColorHover};
   }
 \`;
+const Text = styled('span')\`
+  font-size: \${props => props.fontSize};
+  \${Button}:hover &,
+  \${Button}.hover & {
+    font-size: \${props => props.fontSizeHover};
+  }
+\`;
 
 const Hover = props => {
   return (
@@ -880,6 +896,8 @@ export default Hover;
   "props": Object {
     "backgroundColor": "string",
     "backgroundColorHover": "string",
+    "fontSize": "number",
+    "fontSizeHover": "number",
     "onClick": "function",
   },
   "tests": Array [
@@ -4547,12 +4565,7 @@ exports[`react-native parses react-native Hover 1`] = `
 Object {
   "code": "/* eslint-disable jsx-a11y/accessible-emoji, no-unused-vars */
 import React from 'react';
-import {
-  Animated,
-  StyleSheet,
-  Text,
-  TouchableWithoutFeedback,
-} from 'react-native';
+import { Animated, StyleSheet, TouchableWithoutFeedback } from 'react-native';
 const styles = StyleSheet.create({
   h18pdll5: { flexDirection: 'column' },
   hyfo4ef: { color: 'white' },
@@ -4569,9 +4582,12 @@ const Hover = props => {
         testID={props['testID'] || 'Button'}
         style={[styles.h18pdll5, { backgroundColor: props.backgroundColor }]}
       >
-        <Text testID=\\"Hover.Text\\" style={styles.hyfo4ef}>
+        <Animated.Text
+          testID=\\"Hover.Text\\"
+          style={[styles.hyfo4ef, { fontSize: props.fontSize }]}
+        >
           Hey!
-        </Text>
+        </Animated.Text>
         {props.children}
       </Animated.View>
     </TouchableWithoutFeedback>
@@ -4584,6 +4600,8 @@ export default Hover;
   "props": Object {
     "backgroundColor": "string",
     "backgroundColorHover": "string",
+    "fontSize": "number",
+    "fontSizeHover": "number",
     "onClick": "function",
   },
   "tests": Array [
