@@ -1,9 +1,9 @@
 import * as BlockBackgroundImage from './react-native/block-background-image.js'
 import * as BlockCapture from './react-native/block-capture.js'
 import * as BlockWrap from './react-native/block-wrap.js'
+import { enter as BlockNameEnter } from './react-native/block-name.js'
 import { enter as BlockTestIdEnter } from './react-native/block-test-id.js'
 import { leave as PropertiesStyleLeave } from './react-native/properties-style.js'
-import getBlockName from './react-native/get-block-name.js'
 import getStyleForProperty from './react-native/get-style-for-property.js'
 import getStyles from './react-native/get-styles.js'
 import getValueForProperty from './react-native/get-value-for-property.js'
@@ -36,9 +36,7 @@ export default ({
   if (name !== finalName) {
     console.warn(
       `// "${name}" is a Views reserved name.
-      We've renamed it to "${
-        finalName
-      }", so your view should work but this isn't ideal.
+      We've renamed it to "${finalName}", so your view should work but this isn't ideal.
       To fix this, change its file name to something else.`
     )
   }
@@ -80,7 +78,7 @@ export default ({
     BlockWhen,
     ...visitors
   } = makeVisitors({
-    getBlockName,
+    BlockNameEnter,
     getStyleForProperty,
     getValueForProperty,
     isValidPropertyForBlock,

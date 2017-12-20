@@ -852,8 +852,12 @@ const styles = {
   h18or678: css\`
     flex-direction: column;
   \`,
-  h1qbyotb: css\`
+  h1mgvy2v: css\`
     color: white;
+    &:hover,
+    &.hover {
+      color: black;
+    }
   \`,
 };
 const Button = styled('button')\`
@@ -861,12 +865,6 @@ const Button = styled('button')\`
   &:hover,
   &.hover {
     background-color: \${props => props.backgroundColorHover};
-  }
-\`;
-const Text = styled('span')\`
-  \${Button}:hover &,
-  \${Button}.hover & {
-    color: \${props => 'black'};
   }
 \`;
 
@@ -877,7 +875,7 @@ const Hover = props => {
       onClick={props.onClick}
       className={styles.h18or678}
     >
-      <Text data-test-id=\\"Hover.Text\\" className={styles.h1qbyotb}>
+      <Text data-test-id=\\"Hover.Text\\" className={styles.h1mgvy2v}>
         Hey!
       </Text>
       {props.children}
@@ -970,7 +968,7 @@ exports[`react-dom parses react-dom HoverProxy debug 1`] = `
 Object {
   "code": "/* eslint-disable jsx-a11y/accessible-emoji, no-unused-vars */
 import React from 'react';
-import styled, { css } from 'react-emotion';
+import { css } from 'react-emotion';
 const styles = {
   h1mc7g7i: css\`
     flex-direction: column;
@@ -980,16 +978,14 @@ const styles = {
       background-color: white;
     }
   \`,
-  h1qbyotb: css\`
+  h1mgvy2v: css\`
     color: white;
+    &:hover,
+    &.hover {
+      color: black;
+    }
   \`,
 };
-const Text = styled('span')\`
-  \${Button}:hover &,
-  \${Button}.hover & {
-    color: \${props => 'black'};
-  }
-\`;
 
 const HoverProxy = props => {
   const childrenArray = React.Children.toArray(props.children);
@@ -1006,7 +1002,7 @@ const HoverProxy = props => {
             { fill: 'white', fillHover: 'black' }
           )
         : null}
-      <Text data-test-id=\\"HoverProxy.Text\\" className={styles.h1qbyotb}>
+      <Text data-test-id=\\"HoverProxy.Text\\" className={styles.h1mgvy2v}>
         Hey!
       </Text>
     </button>
@@ -1144,7 +1140,7 @@ const styles = {
     flex-direction: column;
   \`,
 };
-const Text = styled('span')\`
+const span = styled('undefined')\`
   color: \${props => item.color};
 \`;
 
@@ -1162,7 +1158,7 @@ const ListOfButtons = props => {
             key={index}
             className={styles.h18or678}
           >
-            <Text data-test-id=\\"ListOfButtons.Text\\">{index}</Text>
+            <span data-test-id=\\"ListOfButtons.Text\\">{index}</span>
           </button>
         ))}
       {props.children}
@@ -1258,7 +1254,7 @@ const styles = {
     flex-direction: column;
   \`,
 };
-const Text = styled('span')\`
+const span = styled('undefined')\`
   color: \${props => item.color};
 \`;
 
@@ -1270,13 +1266,13 @@ const ListOfSomething = props => {
     >
       {Array.isArray(props.list) &&
         props.list.map((item, index) => (
-          <Text
+          <span
             data-test-id=\\"ListOfSomething.Text\\"
             dataIndex={index}
             key={index}
           >
             {index}
-          </Text>
+          </span>
         ))}
       {props.children}
     </div>
@@ -1783,7 +1779,7 @@ Object {
 import React from 'react';
 import styled, { css } from 'react-emotion';
 
-const Text = styled('span')\`
+const span = styled('undefined')\`
   color: \${props =>
     props.somethingGreen
       ? 'rgb(0,255,0)'
@@ -1792,11 +1788,11 @@ const Text = styled('span')\`
 
 const Scope = props => {
   return (
-    <Text data-test-id={props['data-test-id'] || 'Text'}>
+    <span data-test-id={props['data-test-id'] || 'Text'}>
       {props.somethingGreen
         ? '2 green'
         : props.whatMakesBlue ? props.blue : '1 red'}
-    </Text>
+    </span>
   );
 };
 
@@ -3015,7 +3011,8 @@ class UseCaptureTextArea extends React.Component {
     return (
       <textarea
         onChange={event =>
-          this.setState({ captureTextArea: event.target.value })}
+          this.setState({ captureTextArea: event.target.value })
+        }
         value={state.captureTextArea}
         tabIndex={-1}
         data-test-id={props['data-test-id'] || 'CaptureTextArea'}
@@ -3497,73 +3494,6 @@ export default UseRouter;
 }
 `;
 
-exports[`react-dom parses react-dom UseRouter debug 1`] = `
-Object {
-  "code": "/* eslint-disable jsx-a11y/accessible-emoji, no-unused-vars */
-import React from 'react';
-import { Route } from 'react-router-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
-import { css } from 'react-emotion';
-const styles = {
-  hnpb55i: css\`
-    flex-direction: row;
-  \`,
-};
-
-const UseRouter = props => {
-  return (
-    <Router>
-      <div
-        data-test-id={props['data-test-id'] || 'Horizontal'}
-        className={styles.hnpb55i}
-      >
-        <Route
-          path=\\"/\\"
-          exact
-          render={routeProps => (
-            <Home
-              isDynamic
-              data-test-id=\\"UseRouter.Home\\"
-              height={props.height}
-              width={360}
-              {...routeProps}
-            />
-          )}
-        />
-        <Route
-          path=\\"/about\\"
-          render={routeProps => (
-            <About data-test-id=\\"UseRouter.About\\" {...routeProps} />
-          )}
-        />
-        <Route
-          path=\\"/topics\\"
-          render={routeProps => (
-            <Topics data-test-id=\\"UseRouter.Topics\\" {...routeProps} />
-          )}
-        />
-        {props.children}
-      </div>
-    </Router>
-  );
-};
-
-export default UseRouter;
-",
-  "fonts": Object {},
-  "props": Object {
-    "height": "number",
-  },
-  "tests": Array [
-    Object {
-      "data": Object {},
-      "name": "Main",
-    },
-  ],
-  "todos": Array [],
-}
-`;
-
 exports[`react-dom parses react-dom UseSvg 1`] = `
 Object {
   "code": "/* eslint-disable jsx-a11y/accessible-emoji, no-unused-vars */
@@ -3598,85 +3528,7 @@ export default UseSvg;
 }
 `;
 
-exports[`react-dom parses react-dom UseSvg debug 1`] = `
-Object {
-  "code": "/* eslint-disable jsx-a11y/accessible-emoji, no-unused-vars */
-import React from 'react';
-
-const UseSvg = props => {
-  return (
-    <svg data-test-id={props['data-test-id'] || 'Svg'} viewBox=\\"0 0 20 20\\">
-      <path data-test-id=\\"UseSvg.SvgPath\\" d=\\"0 20\\" />
-      <circle data-test-id=\\"UseSvg.SvgCircle\\" cx={10} cy={5} r={5} />
-      <g data-test-id=\\"UseSvg.SvgGroup\\">
-        <path data-test-id=\\"UseSvg.SvgPath:1\\" d={1} />
-        <path data-test-id=\\"UseSvg.SvgPath:2\\" d={2} />
-      </g>
-      <text data-test-id=\\"UseSvg.SvgText\\" text=\\"hey\\" />
-      {props.children}
-    </svg>
-  );
-};
-
-export default UseSvg;
-",
-  "fonts": Object {},
-  "props": Object {},
-  "tests": Array [
-    Object {
-      "data": Object {},
-      "name": "Main",
-    },
-  ],
-  "todos": Array [],
-}
-`;
-
 exports[`react-dom parses react-dom UseText 1`] = `
-Object {
-  "code": "/* eslint-disable jsx-a11y/accessible-emoji, no-unused-vars */
-import React from 'react';
-import { css } from 'react-emotion';
-const styles = {
-  h84riit: css\`
-    color: blue;
-    font-family: Montserrat, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 300;
-  \`,
-};
-
-const UseText = props => {
-  return (
-    <span
-      data-test-id={props['data-test-id'] || 'Text'}
-      className={styles.h84riit}
-    >
-      Hi, I'm some text
-    </span>
-  );
-};
-
-export default UseText;
-",
-  "fonts": Object {
-    "Montserrat": Array [
-      "300",
-    ],
-  },
-  "props": Object {},
-  "tests": Array [
-    Object {
-      "data": Object {},
-      "name": "Main",
-    },
-  ],
-  "todos": Array [],
-}
-`;
-
-exports[`react-dom parses react-dom UseText debug 1`] = `
 Object {
   "code": "/* eslint-disable jsx-a11y/accessible-emoji, no-unused-vars */
 import React from 'react';
@@ -4283,8 +4135,18 @@ exports[`react-native parses react-native BoxShadow 1`] = `
 Object {
   "code": "/* eslint-disable jsx-a11y/accessible-emoji, no-unused-vars */
 import React from 'react';
-import { StyleSheet } from 'react-native';
-const styles = StyleSheet.create({ h18pdll5: { flexDirection: 'column' } });
+import { Animated, StyleSheet, View } from 'react-native';
+const styles = StyleSheet.create({
+  h18pdll5: { flexDirection: 'column' },
+  h141a9qm: {
+    flexDirection: 'column',
+    elevation: 1,
+    shadowOffset: { width: 0, height: 8 },
+    shadowRadius: 15,
+    shadowOpacity: 1,
+    shadowColor: 'rgba(0, 0, 0, 0.1)',
+  },
+});
 
 const BoxShadow = props => {
   return (
@@ -4313,7 +4175,9 @@ const BoxShadow = props => {
             shadowColor: props.color,
           },
         ]}
-      />
+      >
+        <View testID=\\"BoxShadow.Vertical:2\\" style={styles.h141a9qm} />
+      </Animated.View>
       {props.children}
     </Animated.View>
   );
@@ -4540,7 +4404,12 @@ exports[`react-native parses react-native Hover 1`] = `
 Object {
   "code": "/* eslint-disable jsx-a11y/accessible-emoji, no-unused-vars */
 import React from 'react';
-import { StyleSheet, TouchableWithoutFeedback } from 'react-native';
+import {
+  Animated,
+  StyleSheet,
+  Text,
+  TouchableWithoutFeedback,
+} from 'react-native';
 const styles = StyleSheet.create({
   h18pdll5: { flexDirection: 'column' },
   hyfo4ef: { color: 'white' },
@@ -4588,7 +4457,7 @@ exports[`react-native parses react-native HoverProxy 1`] = `
 Object {
   "code": "/* eslint-disable jsx-a11y/accessible-emoji, no-unused-vars */
 import React from 'react';
-import { StyleSheet, TouchableWithoutFeedback } from 'react-native';
+import { StyleSheet, Text, TouchableWithoutFeedback, View } from 'react-native';
 const styles = StyleSheet.create({
   h1jrzrhl: { flexDirection: 'column', backgroundColor: 'black' },
   hyfo4ef: { color: 'white' },
